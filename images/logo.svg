@@ -1,0 +1,25 @@
+<svg width="100%" viewBox="0 0 680 170" xmlns="http://www.w3.org/2000/svg">
+
+  <rect x="0" y="0" width="680" height="160" fill="#0a0c0f" style="fill:rgb(10, 12, 15);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Ícono: P geométrica construida con líneas — minimalista -->
+  <!-- Palo vertical -->
+  <line x1="80" y1="42" x2="80" y2="118" stroke="#ffffff" stroke-width="4" stroke-linecap="square" style="fill:rgb(0, 0, 0);stroke:rgb(255, 255, 255);color:rgb(0, 0, 0);stroke-width:4px;stroke-linecap:square;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Arco superior (media caja cuadrada = contenedor) -->
+  <polyline points="80,42 116,42 116,80 80,80" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter" style="fill:none;stroke:rgb(255, 255, 255);color:rgb(0, 0, 0);stroke-width:4px;stroke-linecap:square;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Acento naranja — línea inferior del arco -->
+  <line x1="80" y1="80" x2="116" y2="80" stroke="#F5A623" stroke-width="4" stroke-linecap="square" style="fill:rgb(0, 0, 0);stroke:rgb(245, 166, 35);color:rgb(0, 0, 0);stroke-width:4px;stroke-linecap:square;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Separador vertical -->
+  <line x1="148" y1="44" x2="148" y2="116" stroke="#222830" stroke-width="1" style="fill:rgb(0, 0, 0);stroke:rgb(34, 40, 48);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- TRANSPORTES -->
+  <text x="168" y="68" font-family="'Barlow Condensed', 'Arial Narrow', sans-serif" font-weight="400" font-size="17" letter-spacing="6" fill="#555E6A" dominant-baseline="central" text-anchor="start" style="fill:rgb(85, 94, 106);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Barlow Condensed&quot;, &quot;Arial Narrow&quot;, sans-serif;font-size:17px;font-weight:400;text-anchor:start;dominant-baseline:central">TRANSPORTES</text>
+
+  <!-- PIPES -->
+  <text x="163" y="103" font-family="'Barlow Condensed', 'Arial Narrow', sans-serif" font-weight="900" font-size="52" letter-spacing="-1" fill="#ffffff" dominant-baseline="central" text-anchor="start" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Barlow Condensed&quot;, &quot;Arial Narrow&quot;, sans-serif;font-size:52px;font-weight:900;text-anchor:start;dominant-baseline:central">PIPES</text>
+
+  <!-- Punto naranja -->
+  <circle cx="344" cy="90" r="5" fill="#F5A623" style="fill:rgb(245, 166, 35);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+</svg>
