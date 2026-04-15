@@ -9,7 +9,7 @@
   <meta name="description" content="Transporte Pipes: fletes de carga suelta a nivel nacional y venta de contenedores marítimos HC 40, STD 40 y STD 20 directo de terminal con traslado en camión propio. Enviamos a todo el país." />
   <meta name="keywords" content="venta contenedores maritimos, contenedor HC 40, contenedor STD 20, flete carga suelta, transporte contenedores Argentina, traslado contenedor, flete nacional, transporte paletizado, transporte chatarra, fletes Buenos Aires" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://transportepipes.com/" />
+  <link rel="canonical" href="https://transportepipes.com.ar/" />
 
   <!-- Open Graph / Redes Sociales -->
   <meta property="og:type" content="website" />
@@ -78,7 +78,26 @@
     }
 
     html { scroll-behavior: smooth; }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+      z-index: 9999;
+      transition: all 0.3s ease;
+    }
 
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.4);
+    }
     body {
       background: var(--c-bg);
       color: var(--c-text);
@@ -188,6 +207,10 @@
       height: 150px;
       width: auto;
       display: block;
+      transition: height 0.3s ease;
+    }
+    #navbar.scrolled .nav-logo img {
+      height: 80px;
     }
     .nav-logo span { color: var(--c-accent); }
 
@@ -1724,15 +1747,25 @@
           </p>
 
         <div class="footer-social" aria-label="Redes sociales">
-          <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+          <!-- <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
           <a href="#" class="social-link" aria-label="Facebook">f</a>
           <a href="#" class="social-link" aria-label="Instagram">◎</a>
-          <a href="#" class="social-link" aria-label="WhatsApp">W</a>
+          <a href="#" class="social-link" aria-label="WhatsApp">W</a> -->
         </div>
       </div>
     </div>
   </footer>
-
+  <a href="https://wa.me/5491135584650?text=Hola%20quiero%20consultar%20por%20contenedores%20y%20fletes"
+   class="whatsapp-float"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Contactar por WhatsApp">
+   
+   <svg viewBox="0 0 32 32" width="28" height="28">
+     <path fill="white"
+       d="M16 3C9.4 3 4 8.3 4 14.8c0 2.6.8 5.1 2.4 7.1L5 29l7.4-1.9c1.9 1 4 1.5 6.2 1.5 6.6 0 12-5.3 12-11.8S22.6 3 16 3zm0 21.4c-1.9 0-3.8-.5-5.4-1.4l-.4-.2-4.4 1.1 1.2-4.3-.3-.4c-1.2-1.6-1.9-3.6-1.9-5.6 0-5.3 4.4-9.6 9.8-9.6s9.8 4.3 9.8 9.6-4.4 9.6-9.8 9.6zm5.4-7.2c-.3-.2-1.8-.9-2-.9s-.5-.2-.7.2c-.2.3-.8.9-1 .9s-.4 0-.7-.2c-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.6-1.9-1.8-2.2s0-.5.2-.7c.2-.2.3-.4.5-.6.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6 0-.2-.7-1.6-1-2.2-.3-.5-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.6.8.2 1.5.2 2 .1.6-.1 1.8-.7 2.1-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.5z"/>
+   </svg>
+</a>
   <!-- ===== SCRIPTS ===== -->
   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
     // Navbar scroll effect
