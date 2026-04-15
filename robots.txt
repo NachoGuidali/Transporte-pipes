@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://transportepipes.com.ar/sitemap.xml
